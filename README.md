@@ -1,5 +1,10 @@
 # TEMPORAL-EMOTION-DETECTION
 
+The RelevantPapers folder consists of the most important papers that have been crucial to the shaping of this project.
+
+SomyaLohani_CGS702 is the project report for this project.
+
+
 INTRUCTIONS FOR RUNNING:
 
 1. To be able to run the models on your machine, first download a copy of the repository to your machine using the 'Download ZIP' feature provided by Github. Unzip the file to start using.
