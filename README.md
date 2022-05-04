@@ -1,5 +1,7 @@
 # TEMPORAL-EMOTION-DETECTION
 
+Following are the comments on the directory structure and instructions on how to run the models for the files relevant to my course project for CGS702 at IIT Kanpur. Feel free to reach out to me at somyaloh@iitk.ac.in for any queries on the project. 
+
 The RelevantPapers folder consists of the most important papers that have been crucial to the shaping of this project.
 
 SomyaLohani_CGS702.pdf is the project report for this project.
