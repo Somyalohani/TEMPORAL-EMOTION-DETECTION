@@ -42,7 +42,7 @@ INTRUCTIONS FOR RUNNING:
     - The 'testnods' directory contains the curated test dataset. 
     - Install jupyter on your system. 
     - Open the terminal of your UNIX system and cd to the current directory and run: jupyter notebook
-    - This opens a new page on your browser where you can view the .ipynb notebooks. The 'EDA.ipynb' file consists of the exploratory data analysis; the 'DB_GENERATION.ipynb' file consists of the process for database generation in terms of the creation of traiing and testing dataset; the 'FINAL_DETECTION.ipynb' consists of the process for model development, model training and model testing.
+    - This opens a new page on your browser where you can view the .ipynb notebooks. The 'EDA.ipynb' file consists of the exploratory data analysis; the 'DB_GENERATION.ipynb' file consists of the process for database generation in terms of the creation of training and testing dataset; the 'FINAL_DETECTION.ipynb' file consists of the process for model development, model training and model testing.
     - The model is then integrated into the hmm_python_socket.py file.
     - Open the terminal of your UNIX system and cd to the current directory and run: python hmm_python_socket.py
     - Click on the file 'hmm_generator.html' to open it in your browser 
