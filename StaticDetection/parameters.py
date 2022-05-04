@@ -14,7 +14,7 @@ class Hyperparams:
     epochs = 10000
     epochs_during_hyperopt = 500
     kernel = 'rbf'  # 'rbf', 'linear', 'poly' or 'sigmoid'
-    decision_function = 'ovo'  # 'ovo' for OneVsOne and 'ovr' for OneVsRest'
+    decision_function = 'ovr'  # 'ovo' for OneVsOne and 'ovr' for OneVsRest'
     features = "landmarks" # "landmarks" or "hog" or "landmarks_and_hog"
     gamma = 'auto' # use a float number or 'auto' 
  
