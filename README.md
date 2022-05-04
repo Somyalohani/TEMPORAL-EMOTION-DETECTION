@@ -28,13 +28,23 @@ INTRUCTIONS FOR RUNNING:
 5. For understanding and running the dynamic classifier cd into the 'TemporalDetection' folder
   - For Maximum Confidence implementation:
     - cd into 'MaximumConfidence' folder to implement the Maximum confidence algorithm.
-    - Open the terminal of your UNIX system and run: python maxc_python_socket.py
+    - The algorithm is integrated into the maxc_python_socket.py file.
+    - Open the terminal of your UNIX system and cd to the current directory and run: python maxc_python_socket.py
     - Click on the file 'maxc_ generator.html' to open it in your browser 
     - The result of maximum confidencethe will now be displayed on the html webpage as well as on the terminal
     - Click on the stop button the webpage to stop the stream/ close your terminal.
   - For HMM implementation:
     - cd into 'HMM' folder to implement the HMM algorithm for detecting head nods.
-    - Open the terminal of your UNIX system and run: python hmm_python_socket.py
+    - The 'data(i).txt' files are the files which were generated for exploratory data analysis.
+    - The 'plots' directory contains the important plots which were generated during the exploratory data analysis.
+    - The 'trainnods' directory contains the dictionary data that corresponds to succesful nods.
+    - The 'failednods' directory contains the dictionary data that corresponds to no nods.
+    - The 'testnods' directory contains the curated test dataset. 
+    - Install jupyter on your system. 
+    - Open the terminal of your UNIX system and cd to the current directory and run: jupyter notebook
+    - This opens a new page on your browser where you can view the .ipynb notebooks. The 'EDA.ipynb' file consists of the exploratory data analysis; the 'DB_GENERATION.ipynb' file consists of the process for database generation in terms of the creation of traiing and testing dataset; the 'FINAL_DETECTION.ipynb' consists of the process for model development, model training and model testing.
+    - The model is then integrated into the hmm_python_socket.py file.
+    - Open the terminal of your UNIX system and cd to the current directory and run: python hmm_python_socket.py
     - Click on the file 'hmm_generator.html' to open it in your browser 
-    - The result of maximum confidencethe will now be displayed on the html webpage as well as on the terminal
+    - The result of the HMM model indicating whether a nod has occured or not and in between what time frames will now be displayed on the html webpage as well as on the terminal. 
     - Click on the stop button the webpage to stop the stream/ close your terminal.
