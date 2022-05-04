@@ -2,7 +2,7 @@
 
 The RelevantPapers folder consists of the most important papers that have been crucial to the shaping of this project.
 
-SomyaLohani_CGS702 is the project report for this project.
+SomyaLohani_CGS702.pdf is the project report for this project.
 
 
 INTRUCTIONS FOR RUNNING:
@@ -21,8 +21,15 @@ INTRUCTIONS FOR RUNNING:
   - The above found hyperparameters have to be changed in the 'parameters.py' file. Run the training and testing commands again to see improved accuracy.
   - Inorder to cross-validate you have to add the 700 dataset points from IIM database to the csv file. For that move the downloaded 'fer.csv' into the 'TEST_DB' directory. 
   - Next, download the 700 images from https://drive.google.com/file/d/1mMZUSqf_STR_FSPdPLFlQYH_YJj8bYgX/view?usp=sharing into the 'TEST_DB' directory.
-  - Cd into the 'TEST_DB' directory. To add the 700 new points, run: python gen_db.py
+  - cd into the 'TEST_DB' directory. To add the 700 new points, run: python gen_db.py
   - Now replace 'fer.csv' back into 'StaticDetection' folder.
   - Now to finally obtain the cross-validation accuracy repeat the steps to extract facial features, train the model, test the model, find the optimised hyperparameters and use them. 
  
 5. For understanding and running the dynamic classifier cd into the 'TemporalDetection' folder
+  - For Maximum Confidence implementation:
+    - cd into 'MaximumConfidence' folder to implement the Maximum confidence algorithm.
+    - Open the terminal of your UNIX system and run: python maxc_python_socket.py
+    - Click on the file 'maxc_ generator.html' to open it in your browser 
+    - The result of maximum confidencethe will now be displayed on the html webpage as well as on the terminal
+    - Click on the stop button the webpage to stop the stream/ close your terminal.
+  - For HMM implementation
