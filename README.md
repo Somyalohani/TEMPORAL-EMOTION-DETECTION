@@ -32,4 +32,9 @@ INTRUCTIONS FOR RUNNING:
     - Click on the file 'maxc_ generator.html' to open it in your browser 
     - The result of maximum confidencethe will now be displayed on the html webpage as well as on the terminal
     - Click on the stop button the webpage to stop the stream/ close your terminal.
-  - For HMM implementation
+  - For HMM implementation:
+    - cd into 'HMM' folder to implement the HMM algorithm for detecting head nods.
+    - Open the terminal of your UNIX system and run: python hmm_python_socket.py
+    - Click on the file 'hmm_generator.html' to open it in your browser 
+    - The result of maximum confidencethe will now be displayed on the html webpage as well as on the terminal
+    - Click on the stop button the webpage to stop the stream/ close your terminal.
