@@ -14,4 +14,10 @@ INTRUCTIONS FOR RUNNING:
   - To test the model use: python train.py --evaluate=yes
   - To find optimised hyperparameters use: python optimize_parameters.py --max_evals=15
   - The above found hyperparameters have to be changed in the 'parameters.py' file. Run the training and testing commands again to see improved accuracy.
-  - 
+  - Inorder to cross-validate you have to add the 700 dataset points from IIM database to the csv file. For that move the downloaded 'fer.csv' into the 'TEST_DB' directory. 
+  - Next, download the 700 images from https://drive.google.com/file/d/1mMZUSqf_STR_FSPdPLFlQYH_YJj8bYgX/view?usp=sharing into the 'TEST_DB' directory.
+  - Cd into the 'TEST_DB' directory. To add the 700 new points, run: python gen_db.py
+  - Now replace 'fer.csv' back into 'StaticDetection' folder.
+  - Now to finally obtain the cross-validation accuracy repeat the steps to extract facial features, train the model, test the model, find the optimised hyperparameters and use them. 
+ 
+5. For understanding and running the dynamic classifier cd into the 'TemporalDetection' folder
